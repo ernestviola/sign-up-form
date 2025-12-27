@@ -9,7 +9,11 @@
 
 body {
   min-height: 100vh;
-  background-color: rgb(7, 7, 40);
+  background: linear-gradient(
+    rgb(59, 108, 163),
+    rgb(11, 50, 93),
+    rgb(2,33,67)
+  );
   color: white;
 }
 
@@ -28,6 +32,13 @@ body {
 .sign-up-section {
   flex: 3;
 }
+
+/* .sign-up-section > div {
+  background-color: rgb(81,46,57);
+  width: 80%;
+  margin: 60px auto;
+  padding: 16px 24px;
+} */
 
 .title-container {
   margin-top: 300px;
