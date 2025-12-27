@@ -6,3 +6,44 @@
   max-width: 100%;
   list-style: none;
 }
+
+body {
+  min-height: 100vh;
+  background-color: rgb(7, 7, 40);
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.photo-section {
+  flex: 2;
+  background-image: url('images/skyscraper.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sign-up-section {
+  flex: 3;
+}
+
+.title-container {
+  margin-top: 300px;
+  height: 200px;
+  background-color: rgba(40,40,40,.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.title-container p {
+  font-size: 36px;
+}
+
+.logo {
+  margin-top: 4px;
+  height: 60px;
+}
